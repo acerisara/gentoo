@@ -1,0 +1,20 @@
+diff --git a/tests/test_samples.py b/tests/test_samples.py
+index d5ba55c..962afbe 100755
+--- a/tests/test_samples.py
++++ b/tests/test_samples.py
+@@ -284,6 +284,7 @@ class TestWikipediaFlags:
+             print("deleting [%d] %s" % (i, path))
+             os.remove(path)
+ 
++    @pytest.mark.skip(reason='Needs internet access')
+     def test_convert_pdf(self):
+         "Test converting flag SVG files to PDF using svglib."
+ 
+@@ -361,6 +362,7 @@ class TestW3CSVG:
+             print("deleting [%d] %s" % (i, path))
+             os.remove(path)
+ 
++    @pytest.mark.skip(reason='Needs internet access')
+     def test_convert_pdf_png(self):
+         """
+         Test converting W3C SVG files to PDF and PNG using svglib.

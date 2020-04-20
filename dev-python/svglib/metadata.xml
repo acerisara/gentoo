@@ -10,11 +10,10 @@
     <name>Proxy Maintainers</name>
   </maintainer>
   <longdescription>
-    rst2pdf is a tool to create PDF documents from your ReStructured Text markup.
-    It is an Open Source, free-to-use tool that will help you create documents,
-    slide decks and other PDF output very quickly and easily.
+    Svglib is a pure Python library for reading SVG files and converting them
+    (to a reasonable degree) to other formats using the ReportLab Open Source toolkit.
   </longdescription>
   <upstream>
-    <remote-id type="github">rst2pdf/rst2pdf</remote-id>
+    <remote-id type="github">deeplook/svglib</remote-id>
   </upstream>
 </pkgmetadata>

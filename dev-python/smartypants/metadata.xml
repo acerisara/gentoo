@@ -10,11 +10,11 @@
     <name>Proxy Maintainers</name>
   </maintainer>
   <longdescription>
-    rst2pdf is a tool to create PDF documents from your ReStructured Text markup.
-    It is an Open Source, free-to-use tool that will help you create documents,
-    slide decks and other PDF output very quickly and easily.
+    Python fork of SmartyPants, a tool that easily translates
+    plain ASCII punctuation characters into "smart" typographic
+    punctuation HTML entities.
   </longdescription>
   <upstream>
-    <remote-id type="github">rst2pdf/rst2pdf</remote-id>
+    <remote-id type="github">leohemsted/smartypants.py</remote-id>
   </upstream>
 </pkgmetadata>
